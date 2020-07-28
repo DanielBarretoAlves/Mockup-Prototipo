@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #004d83;
+    padding: 20px;
+}
+
+p,
+a,
+b,
+strong,
+Strong {
+    font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jockey One', sans-serif;
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 580px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+    background-color: #fdc407;
+    color: yellow;
+    font-size: 20px;
+    width: 10%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+}
+
+nav .nav-item {
+    margin: 3px;
+}
+
+article {
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+header {
+    width: 100%;
+    /* padding: 10px; */
+    background-color: azure;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+}
+
+.cardDiv {
+    width: 90%;
+    margin: auto;
+}
+
+.cardDiv .card-group .card {
+    margin-right: 10px;
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    /* background-color: #004d83; */
+    text-align: center;
+}
+
+#content iframe {
+    padding-left: 10%;
+}
+
+#description {
+    width: 30%;
+    text-align: left;
+}
